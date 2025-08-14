@@ -1,0 +1,47 @@
+.app-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+}
+.step-indicator {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.step-indicator span {
+  padding: 0.5rem 1rem;
+  border-radius: 24px;
+  background: #eee;
+}
+.step-indicator .active {
+  background: #702082;
+  color: #fff;
+  font-weight: bold;
+}
+.step-content {
+  min-height: 300px;
+}
+button {
+  margin: 1rem 0.5rem 0 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background: #702082;
+  color: #fff;
+  cursor: pointer;
+}
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+input, select {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
