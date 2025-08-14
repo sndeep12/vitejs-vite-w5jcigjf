@@ -1,0 +1,63 @@
+.privacy-modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.privacy-modal {
+  background: #fff;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 90%;
+  padding: 2rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+  text-align: center;
+  border: 3px solid #4b286d;
+}
+
+.privacy-modal h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.privacy-warning {
+  background: #fff7d6;
+  color: #4b286d;
+  padding: 0.75rem;
+  border: 1px solid #ffd700;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.privacy-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.privacy-btn {
+  border: 2px solid #4b286d;
+  background: #fff;
+  color: #4b286d;
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.privacy-btn.privacy-agree {
+  background: #4b286d;
+  color: #fff;
+}
+
+.privacy-btn:focus {
+  outline: 2px solid #702082;
+}
